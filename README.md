@@ -165,6 +165,10 @@ The frequencies to Brazil region has to change to AU915 parameters. The right fi
 
 Save changes with Ctrl + X and exit nano.
 
+To give full permission to this file, white on the root command line:
+
+sudo chmod 777 chirpstack-network-server.toml
+
 To confirm the installation was done correctly:
 
 At the terminal:
@@ -247,6 +251,10 @@ Copy the generated key.
 Go back to nano and write the key inside jwt_secret=" "
 
 Save changes and exit nano again.
+
+To give full permission to this file, white on the root command line:
+
+sudo chmod 777 chirpstack-application-server.toml
 
 To confirm the installation was done correctly:
 
